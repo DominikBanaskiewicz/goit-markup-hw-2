@@ -12,3 +12,27 @@
 footer {
   background-color: #2f303a;
 }
+.main-list {
+  list-style: none;
+  list-style-position: initial;
+}
+.email {
+  color: #2196f3;
+  text-decoration: none;
+}
+.main-phone {
+  color: #757575;
+  text-decoration: none;
+}
+.agencja-main-page {
+  text-decoration: none;
+}
+.WebStudio-main {
+  font-weight: 700;
+}
+.blue-color {
+  color: #2196f3;
+}
+footer {
+  color: #ffffff;
+}
