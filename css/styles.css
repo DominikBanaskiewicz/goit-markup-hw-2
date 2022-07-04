@@ -1,38 +1,160 @@
-.portfolio-buttons-elem {
-  background: #f5f4fa;
-  border-radius: 4px;
-  border-color: #f5f4fa;
+:root {
+  --brand-blue-color: #2196f3;
+  --grey-font-color: #757575;
+  --almost-black-font-color: #212121;
 }
-.portfolio-buttons-elem:hover {
-  background: #2196f3;
+body {
+  font-family: Robato;
+  color: black;
 }
-.Web-blue-color {
-  color: #2196f3;
+/* header i nav*/
+.main-page-logo-blue {
+  color: var(--brand-blue-color);
 }
-footer {
-  background-color: #2f303a;
+
+.webstudio-main {
+  font-weight: bold;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: calc(30, 52 / 26);
 }
-.main-list {
-  list-style: none;
-  list-style-position: initial;
+
+.nav-link-main {
+  color: var(--brand-blue-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: calc(16, 41 / 14);
 }
+.nav-agencja-link-blue,
+.nav-portfolio-link-blue {
+  text-decoration-line: none;
+  color: var(--brand-blue-color);
+}
+.nav-agencja-link,
+.nav-kontakt-link,
+.nav-portfolio-link {
+  text-decoration-line: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: calc(16, 41 / 14);
+}
+
 .email {
-  color: #2196f3;
+  color: var(--grey-font-color);
   text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: calc(16, 41 / 14);
+}
+.email-index {
+  color: var(--brand-blue-color);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: calc(16, 41 / 14);
 }
 .main-phone {
-  color: #757575;
+  color: var(--grey-font-color);
   text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: calc(16, 41 / 14);
 }
-.agencja-main-page {
-  text-decoration: none;
+/* MAIN */
+.btn-zamow-usluge {
+  cursor: pointer;
+  background-color: var(--brand-blue-color);
+  border: none;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 4px;
 }
-.WebStudio-main {
+h1 {
+  font-size: 44px;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 66px;
+  align-items: center;
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+/* MAIN CONTENT */
+.main-content-list-elem > h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.main-content-list-elem > p {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--grey-font-color);
+}
+/* OUR TEAM */
+.our-team-elem > p {
+  font-size: 16px;
+  color: var(--grey-font-color);
+}
+.our-team-elem > h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+/* ABOUT US */
+.about-us > h2 {
+  color: var(--almost-black-font-color);
+  font-size: 36px;
+  line-height: calc(42 / 36);
   font-weight: 700;
 }
-.blue-color {
-  color: #2196f3;
-}
+/* FOOTER */
 footer {
+  background-color: #2f303a;
   color: #ffffff;
+}
+.footer-adress {
+  font-style: normal;
+}
+.footer-adress,
+.footer-email,
+.footer-phone {
+  color: #ffffff99;
+  font-size: 14px;
+}
+/* PORTFOLIO  */
+.email-portfolio {
+  color: var(--grey-font-color);
+}
+.portfolio-buttons-elem {
+  border-radius: 4px;
+  border-style: none;
+  background: #f5f4fa;
+  border-color: #f5f4fa;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: calc(26 / 16);
+  color: var(--almost-black-font-color);
+}
+
+.portfolio-buttons-elem:focus {
+  border-color: #2f303a;
+}
+.portfolio-buttons-elem:hover {
+  background: var(--brand-blue-color);
+  color: white;
+  border-radius: 4px;
+  border-style: none;
+}
+.portfolio-main-list-elem h3 {
+  font-size: 18px;
+  color: var(--almost-black-font-color);
+  font-weight: 700;
+  line-height: calc(36 / 18);
+}
+.portfolio-main-list-elem p {
+  font-size: 16px;
+  color: var(--grey-font-color);
+  font-weight: 400;
+  line-height: calc(30 / 16);
 }
