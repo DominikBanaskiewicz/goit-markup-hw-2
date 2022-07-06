@@ -15,12 +15,13 @@
   </head>
   <body>
     <header>
-      <p class="webstudio-main">
-        <span class="main-page-logo-blue">Web</span>Studio
-      </p>
+      <a class="webstudio-main" href="index.html"
+        ><span class="main-page-logo-blue">Web</span>Studio
+      </a>
+
       <nav class="nav">
         <p class="nav-agencja">
-          <a class="nav-agencja-link-blue" href="index.html">Agencja</a>
+          <a class="nav-agencja-link" href="#">Agencja</a>
         </p>
         <p class="nav-portfolio">
           <a class="nav-portfolio-link" href="portfolio.html">Portfolio</a>
@@ -30,7 +31,7 @@
         </p>
       </nav>
       <div>
-        <a class="email-index" href="mailto:info@devstudio.com"
+        <a class="main-email" href="mailto:info@devstudio.com"
           >info@devstudio.com</a
         >
         <a class="main-phone" href="tel:+48111111111">+48111111111</a>
@@ -38,7 +39,7 @@
     </header>
     <main>
       <section class="main-content">
-        <ul>
+        <ul class="main-content-zamow-usluge-list">
           <li>
             <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
             <button type="button" class="btn-zamow-usluge">Zamów usługę</button>
@@ -79,8 +80,8 @@
       </section>
       <section class="about-us">
         <h2>Czym się zajmujemy</h2>
-        <ul>
-          <li class="about-us-elem">
+        <ul class="about-us-list">
+          <li class="about-us-list-elem">
             <img
               src="images/czym-sie-zajmujemy1.jpg"
               alt="work on computer"
@@ -88,7 +89,7 @@
               height="294"
             />
           </li>
-          <li class="about-us-elem">
+          <li class="about-us-list-elem">
             <img
               src="images/czym-sie-zajmujemy2.jpg"
               alt="computer and phone"
@@ -96,7 +97,7 @@
               height="294"
             />
           </li>
-          <li class="about-us-elem">
+          <li class="about-us-list-elem">
             <img
               src="images/czym-sie-zajmujemy3.jpg"
               alt="color and tablet"
@@ -107,8 +108,9 @@
         </ul>
       </section>
 
-      <section class="out-team">
-        <ul>
+      <section class="our-team">
+        <h2>Nasz zespół</h2>
+        <ul class="our-team-list">
           <li class="our-team-elem">
             <img
               src="images/teamcard1.jpg"
@@ -153,13 +155,15 @@
       </section>
     </main>
     <footer>
-      <p class="webstudio-main">
+      <p class="webstudio-footer">
         <span class="main-page-logo-blue">Web</span>Studio
       </p>
       <address>
         <p class="footer-adress">m. Warszawa, Aleje Jerozolimskie 21</p>
-        <p class="footer-email">info@example.com</p>
-        <p class="footer-phone">+48 111 111 111</p>
+        <a class="footer-email" href="mailto:info@devstudio.com"
+          >info@example.com</a
+        >
+        <a class="footer-phone" href="tel:+48111111111">+48 111 111 111</a>
       </address>
     </footer>
   </body>
