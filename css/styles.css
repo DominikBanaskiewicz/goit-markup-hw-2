@@ -91,18 +91,20 @@ h1 {
   font-size: 44px;
   font-weight: 900;
   color: var(--white-color);
-  line-height: 66px;
-  align-items: center;
-  background-color: var(--background-dark-color);
+  line-height: 1.36;
+}
+.main-board {
   width: 1600px;
   height: 600px;
+  background-color: var(--background-dark-color);
+  align-items: center;
 }
 /* 
 
 MAIN CONTENT
 
 */
-.main-content-zamow-usluge-list,
+
 .main-content-list,
 .about-us-list,
 .our-team-list,
@@ -190,6 +192,7 @@ footer {
   font-weight: 500;
   line-height: 1.7;
   color: var(--almost-black-font-color);
+  padding: 6px 22px;
 }
 
 .portfolio-buttons-elem:focus {
