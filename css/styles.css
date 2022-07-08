@@ -28,9 +28,8 @@ body {
 .webstudio-main,
 .webstudio-footer {
   font-family: var(--railway-font);
-  font-weight: bold;
   font-size: 26px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.17;
   color: var(--almost-black-font-color);
 }
@@ -64,7 +63,9 @@ body {
 .nav-agencja-link-blue:hover,
 .nav-portfolio-link-blue:hover,
 .main-email:hover,
-.main-phone:hover {
+.main-phone:hover,
+.footer-email:hover,
+.footer-phone:hover {
   color: var(--brand-blue-color);
   text-decoration: underline var(--brand-blue-color);
   cursor: pointer;
@@ -93,7 +94,7 @@ h1 {
   color: var(--white-color);
   line-height: 1.36;
 }
-.main-board {
+.main-banner {
   width: 1600px;
   height: 600px;
   background-color: var(--background-dark-color);
